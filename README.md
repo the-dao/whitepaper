@@ -27,7 +27,7 @@ Participation in the DAO should not be overly complicated for a passive member (
     
 ### Value creation
 
-All members, whether providing services via a League, allocating capital, whether vetted or open community members, are incentivized towards the pursuit of value accrual to the DAO portfolio. Using continuous payments to individuals who work full-time for Leagues, providing compelling bounties and rewards for community members that deliver value, the DAO’s bullet inflation mechanism will reward Leagues and members that deliver outlier value as investments and value-add activities are harvested by the DAO. The DAO's primary edge is its ability to scale the value-add contribution that a top-tier venture fund should deliver to its portfolio of projects. The DAO will be the highest value-add partner to its portfolio of projects because it will be able to deliver the true scarce resources of the crypto industry: developers, active, engaged community, beta testers, a privileged knowledgebase and global scale through its distributed network of members.
+All members, whether providing services via a League, allocating capital, whether vetted or open community members, are incentivized towards the pursuit of value accrual to the DAO portfolio. Using continuous payments to individuals who work full-time for Leagues, providing compelling bounties and rewards for community members that deliver value, the DAO’s bullet inflation mechanism (non-continuous inflation, where a tranche of DAO tokens is minted for each capital deployment) will reward Leagues and members that deliver outlier value as investments and value-add activities are harvested by the DAO. The DAO's primary edge is its ability to scale the value-add contribution that a top-tier venture fund should deliver to its portfolio of projects. The DAO will be the highest value-add partner to its portfolio of projects because it will be able to deliver the true scarce resources of the crypto industry: developers, active, engaged community, beta testers, a privileged knowledgebase and global scale through its distributed network of members.
 
 ### Ensuring security
 
@@ -169,6 +169,7 @@ At the launch of the curve $a =$ $89.00, the Final Token Price.
 The onboarding-phase is a long enough period to allow for awareness to build widespread global participation, and short enough to add value to early participants.
 
 #### Security
+
 Due to the nature of mandate selection, if a single holder owns a majority of tokens, they can theoretically decide single-handedly the recipient of a mandate and act maliciously. Including a function whereby the cost of acquisition increases geometrically offers sufficient protection of attack from a well-capitalized malicious actor and thus the bonding curve is necessary to control both a run on the underlying capital in a market downturn as well as an attack from a well capitalized actor. If the community sells their tokens, this is a form of consent whereby the individual gives up their right to vote in mandate selection. It should just become gradually prohibitive to attack the DAO through DAO token minting.
 
 For a takeover attack through minting, because participation is not restrictive at the level of identity, it is not possible to outright prevent the case where an individual takes majority control of the token supply. However, capital is Sybil resistant if directed through a bonding curve.
@@ -178,9 +179,11 @@ For a takeover attack through minting, because participation is not restrictive 
 After the initial funding period, DAO members can off-board via the bonding curve with a predefined penalty that corresponds to the illiquid position of DAO plus the capital contemplated in the current mandate. For example, if the DAO holds 5% of its AUM in illiquid assets and the current mandate is to deploy 5% of the AUM, the illiquidity penalty would be 10% in addition to falling on a bonding curve and increasing as more and more DAO tokens are subsequently burned over a given short period of time.
 
 ### Last Man Standing
+
 Inherent to the design of DAO is a principle of favouring the Last Man Standing. Redeeming parties effectively leave their private allocation plus the current mandate as a penalty, thereby leaving the remaining DAO members with an accreditive position containing a larger share of the private assets. If the Venture League does its job correctly over time, those assets should be the most profitable assets over the long run. Thusly the on-boarding and off-boarding structure favours first-in-last-out DAO members. If a member maintains their position through all the ups and downs and liquidity crunches in crypto, that member should stand to be rewarded by the best-performing position.
 
 ### Burning/Redeeming Tokens
+
 $BurnPrice = CurrentMintingPrice * LiquidityRatio$
 
 $LiquidityRatio = \frac{LiquidAssets}{Liquid + Illiquid}$
@@ -188,6 +191,7 @@ $LiquidityRatio = \frac{LiquidAssets}{Liquid + Illiquid}$
 The treasury provides the liquidity ratio through an oracle. Thusly, the burn function is not activated until a mandate has been selected, and there exists an entity to fulfill this role.
 
 #### Example
+
 One can imagine a scenario where the treasury holds 100 Million and 10%, or 10 million, is held in illiquid assets. At this moment the Burn Price is 90% of the NaV. If one sells to the curve, one receives 90% of their share of the NaV. After all, a token represents fractional ownership of all of the underlying assets. The rest is burned in the purest sense, and the remaining token holders now own a higher proportion of the illiquid assets than previous. i.e., the same token represents more illiquid assets than before.
 
 If individuals continue to sell, liquid assets are exchanged to provide liquidity for redemptions. This, in turn, increases the Liquidity Discount as the inverse of the Liquidity Ratio.
@@ -195,6 +199,7 @@ If individuals continue to sell, liquid assets are exchanged to provide liquidit
 ![](https://i.imgur.com/fB74NMo.png)
  
 ## Community
+
 Central to the value proposition of Venture League is leveraging the community for both sourcing deal flow and vetting potential deals. Leveraging novel social tools that allow teams to maintain a certain level of confidentiality when putting together a specific deal, but then also allow for community feedback and proposal of new opportunities.
 
 One solution could be a tiered structure where the ultimate investment ultimate responsibility for decision making is held by a small core team, but community members are rewarded for providing information, leads and work on behalf of all token holders. This reward can be for direct value-add to the portfolio companies or through vetting potential investments increasing the surface area of deal flow available to the core team, using SourceCred for reputation-weighted peer review.
@@ -208,12 +213,15 @@ Past a group of 5-7 (known as a “two pizza” team) it can be difficult to coo
 Through the use of SourceCred individual members of the community can earn reputation, as defined by the community and specifically community leaders, and be compensated for the value they bring into the system. Over time this lowers the barrier of entry into the community and encourages high quality work fulfilling the mission of the DAO. Most importantly, this fosters a culture whereby leagues and the individuals who comprise them have an understanding that if they deliver great value, they will be adequately compensated for their contributions. 
 
 ## DAO Token
+
 DAO tokens will be issued to leagues for services, projects as medium of investment and members in exchange for Underlying Capital. They confer governance rights to decide mandates and ultimately guide the direction of DAO and can be used for staking in the Aragon Court assembly of the Original Guild as well as staking for conflict resolution. The DAO token is issued when a deployment is confirmed by the multi-sig between Venture League, Treasury League and Compliance League and the DAO token is considered a basket of the underlying assets of the capital pool via bullet inflation. That is that the Treasury_DAO can inflate DAO tokens subject to the permissions of the given mandate and thusly balance the portfolio.
 
 ### Stabler Coin
+
 The DAO token will be redeemable for the underlying liquid assets that it represents. For example, if the underlying capital pool is 1/3 ETH, 1/3 WBTC and 1/3 a basket of other tokens without any private assets held, then the DAO token can be burned in exchange for those assets less a small liquidity penalty corresponding to the size of the current mandate. This makes the DAO token a basket crypto-currency which should allow it to be somewhat stabler than any of the individual crypto-assets in underlying capital while still being a long-crypto asset. Such a mechanism sometimes known as a 'Stabler Coin'. Potentially, a [SET](https://www.setprotocol.com) could be deployed in support of this corporate currency backed by a basket of cryptocurrencies.
 
 ---
 
 ## Conclusions
+
 Herein we present a framework and set of incentivization mechanisms to drive value creation among decentralized P2P actors in a for-profit capital pool. It is understood that there are numerous crypto economic and security mechanisms to elaborate and evolve before deploying this set of smart contracts. However, we find the dream of a sustainable decentralized organization that attracts and filters for great talent, supports genuine innovation and meaningful experimentation, and delivers outlier value to its members to have such high potential that we are compelled to forge ahead with research because this is the most interesting project we can imagine.
