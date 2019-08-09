@@ -10,22 +10,27 @@ DAO Community & Friends
 ---
 
 ## Abstract
+
 The DAO is a decentralized autonomous organization designed to sustainably develop a diversified portfolio of crypto-assets and accrue value for DAO members. It will be a clean capital pool where members only perform one vote to authorize a mandate that is executed by sub-DAOs known as “leagues” using the Aragon framework. During the life of a mandate, leagues perform all the standard work that an investment fund would require to be professionally managed over time, leveraging a decentralized global community where possible and allowing authorized, competent teams to self-organize and be appropriately remunerated when they deliver value. Leagues are able to distribute rewards based on coherent reputation-weighted peer-review using the SourceCred framework. Individuals can join the DAO at any time by buying DAO tokens, subject to a bonding curve to maintain incentive-alignment with risk profile. Members can exit the DAO at any time by selling DAO tokens via the same mechanism, thereby offering individual liquidity while ensuring security for members. The capital pool is managed through inflation and burning mechanisms: portfolio projects receive investment as newly-minted DAO tokens, and DAO tokenholders can always burn the DAO token against the bonding curve to obtain the underlying capital (ETH, WBTC, etc.) less a liquidity discount. This enables the DAO token to be a ‘stabler’ coin, collateralized by an underlying basket of high quality crypto-assets.
 
 ## Principles
 
-As with any organization that is ['built to last'](http://www.wikisummaries.org/wiki/Built_to_Last), DAO sets forth a set of inalienable principles that guides overall strategy along with the individual activities of members and related leagues.
-    
-**Clean Distributed Capital Pool open to all**
-DAO is clean capital pool. There have not been and will not be any discounts or preferential treatment to any party. There is no owner, no CEO, no point of centralization. On-boarding and off-boarding from the DAO along with remuneration structures of the leagues shall be transparent and in line with the Principles of the DAO. Leagues are subject to approval voting by all DAO token holders and can be changed if necessary at any time. Members can on-board and off-board at any time subject to security mechanisms and participation is pseudo-anonymous and thusly open to all.
+As with any organization that is ['built to last'](http://www.wikisummaries.org/wiki/Built_to_Last), the DAO sets forth a set of inalienable principles that guides overall strategy along with the individual activities of members and related leagues.
+
+**Clean distributed capital pool open to all**
+
+The DAO is clean capital pool. There have not been and will not be any discounts or preferential treatment to any party. There is no owner, no CEO, no point of centralization. On-boarding and off-boarding from the DAO along with remuneration structures of the leagues shall be transparent and in line with the Principles of the DAO. Leagues are subject to approval voting by all DAO token holders and can be changed if necessary at any time. Members can on-board and off-board at any time subject to security mechanisms and participation is pseudonymous and thus open to all.
 
 **One interaction with DAO token holders per Mandate**
- Participation in the DAO should not be overly complicated for a passive member (DAO token holders). Given the history of difficulty in educating and motivating crypto-asset holders to participate in decentralized decision making, members should only need to make one decision per Mandate (a Mandate may be 1 year duration to start) which should be a single multiple-choice question to approve a single mandate among a small set of 4-5 Proposals. Proposals by Leagues are white-listed by a Compliance League and/or using Aragon Court for coherence as protection against attack vectors. Decentralization of proposal white-listing will be grandfathered in appropriately. 
-    
-**Value Creation**
-    - All members, whether at the league level providing services, allocating capital, vetted or open community members or otherwise are incentivized towards the pursuit of value accrual to the DAO portfolio. Using continuous payments to individuals who work full-time for leagues, providing compelling bounties and rewards for community members that deliver value, the DAO’s bullet inflation mechanism will reward Leagues and members that deliver outlier value appropriately as investments and value-add activities are harvested by the DAO. DAO’s primary edge is its ability to scale the value-add contribution that a top-tier venture fund should deliver to its portfolio of projects. DAO will be the highest value-add partner to its portfolio of projects because it will be able to deliver the true scarce resources of the crypto industry – developers, active community, beta testers, privileged knowledgebase and global scale through its distributed network of members.
 
-**Ensuring Security**
+Participation in the DAO should not be overly complicated for a passive member (DAO token holders). Given the history of difficulty in educating and motivating crypto-asset holders to participate in decentralized decision making, members should only need to make one decision per Mandate (a Mandate may be one year duration to start) which should be a single multiple-choice question to approve a single Mandate among a small set of 4-5 Proposals. Proposals by Leagues are whitelisted by a Compliance League and/or using Aragon Court for coherence as protection against attack vectors. Decentralization of proposal whitelisting will be introduced appropriately.
+    
+**Value creation**
+
+All members, whether providing services via a League, allocating capital, whether vetted or open community members, are incentivized towards the pursuit of value accrual to the DAO portfolio. Using continuous payments to individuals who work full-time for Leagues, providing compelling bounties and rewards for community members that deliver value, the DAO’s bullet inflation mechanism will reward Leagues and members that deliver outlier value as investments and value-add activities are harvested by the DAO. The DAO's primary edge is its ability to scale the value-add contribution that a top-tier venture fund should deliver to its portfolio of projects. The DAO will be the highest value-add partner to its portfolio of projects because it will be able to deliver the true scarce resources of the crypto industry: developers, active, engaged community, beta testers, a privileged knowledgebase and global scale through its distributed network of members.
+
+**Ensuring security**
+
 In delivering security to members, we note the need for resilience and certain stability mechanisms in the capital pool must exist. Compliance can be achieved as a decentralized service performed by the Leagues on behalf of a clean capital pool. Such an arrangement present interesting game-theoretic challenges. We propose certain solutions below and in subsequent League specifications.
 
 ## Current Issues in capital deployment in crypto
