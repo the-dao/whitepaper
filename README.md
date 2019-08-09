@@ -1,4 +1,5 @@
-# DAO - A next-generation decentralized organization that that coordinates the resources of a community (human, capital) to sustainably deliver value for members.
+# The DAO
+## A next-generation decentralized organization that coordinates the resources of a community (human and capital) to sustainably deliver value for members.
 
 **Authors**
 DAO Community & Friends
