@@ -49,49 +49,58 @@ While many venture capital funds (VCs) are well-intentioned and do great work fo
 
 5. **Social scalability** Most funds have a few key individuals (known as "key persons") that drive the vast majority of deal flow. However, a fund could benefit from a community or network of motivated members that drive substantially more deal-flow and contribute value-add activities to portfolio projects. A filtered community incentivized to find, assess, and support projects could increase the quality of deal flow and the reputation of the organization. Experimentation with novel social coordination tools such as [SourceCred](https://sourcecred.io/) can ensure incentives among a coherent community and thoughtful debate while ensuring information security when appropriate.
 
-**DAOs**
+### DAOs
 
-The DAO (April to July 2016) was a novel experiment in capital formation and distributed decision making in the allocation of the underlying capital. A community pooled capital by buying DAO tokens and used governance to deploy capital in a for-profit motive, thereby driving the value of the underlying capital pool. In retrospect, the early days of the DAO proved quite interesting as an enthusiastic decentralized community self-organized performing due diligence on potential deals. Unfortunately, The DAO had a critical vulnerability in its redemption mechanism, which was exploited and the project failed. However, if the DAO had not failed, it would possibly be the largest capital pool in the industry today. Further, the due diligence standards and requirements that The DAO members were establishing would have made for a much more tempered and coherent subsequent era of funding protocols than what we saw from the ICO craze circa 2017. 
+The DAO (April to July 2016) was a novel experiment in capital formation and distributed decision making in the allocation of the underlying capital. A community pooled capital by buying DAO tokens and used governance to deploy capital in a for-profit motive, thereby driving the value of the underlying capital pool. In retrospect, the early days of the DAO proved quite interesting as an enthusiastic decentralized community self-organized and performed due diligence on potential deals. Unfortunately, The DAO had a critical vulnerability in its redemption mechanism, which was exploited and the project failed. However, if the DAO had not failed, it would possibly be the largest capital pool in the industry today. Further, the due diligence standards and requirements that The DAO members were establishing would have made for a much more tempered and coherent subsequent era of funding protocols than what we saw in the ICO craze circa 2017.
+
 ## 2. DAO Structure
 
 ![](https://i.imgur.com/MhYNmaW.png)
 
-The DAO is a decentralized software stack based on the Aragon [framework](https://aragon.org) that allows capital to be securely pooled and intelligently deployed to fund crypto-networks, dapp projects, companies and trading opportunities. The underlying pool of capital will be a balanced portfolio of approved assets, such as ETH, WBTC, other high-quality assets. The pool is to be safeguarded and managed efficiently by leagues working under strict time-limited mandates with security backstops regarding performance.
+The DAO is a decentralized software stack based on the [Aragon framework](https://aragon.org) that allows capital to be securely pooled and intelligently deployed to fund crypto-networks, dapp projects, companies and trading opportunities. The underlying pool of capital will be a balanced portfolio of whitelisted assets such as ETH, WBTC, and other high-quality crypto-assets. The pool is to be safeguarded and managed efficiently by leagues working under strict time-limited mandates with security backstops regarding performance.
 
-- Note: Over time, members would expect that the DAO will also hold off-chain assets and crypto-assets that are not native to Ethereum potentially via service from a bonded custody league or otherwise.
+Note: While trustless cross-chain value transfer has not yet matured, over time, members would expect that the DAO will also hold off-chain assets and crypto-assets that are not native to Ethereum, potentially via service from a bonded custody league.
 
-At the genesis of DAO, capital can be onboarded during an initial funding period. After the close of initial funding, entry into and redemption from the DAO will be on a bonding curve that regulates the value of the DAO token vs. the underlying capital. Underlying capital will be made up of ETH, DAI, WBTC or one of a set of high-quality ERC20s. This is due to the fact that trustless cross-chain value transfer has not yet matured.
+At the genesis of the DAO, capital can be onboarded during an initial funding period. After the close of initial funding, entry into and redemption from the DAO will occur against a bonding curve that regulates the pricing of the DAO token in units of the underlying capital. 
 
-The DAO will make capital deployments based on a set of permissions set in a multi-sig between the Venture League, Treasury League and Compliance League, subject to the permissions set forth in the respective mandates for each group. For capital to be sent by the DAO to a prospective investment, the Venture League, Treasury League and Compliance League will all need to sign a multi-sig transactions and the given deployment will need to satisfy the permissions and restrictions of the issued mandates to each league.
+The DAO will make capital deployments based on a set of permissions set in a multi-sig between the Venture League, Treasury League and Compliance League, subject to the permissions set forth in the respective mandates for each group. For capital to be sent by the DAO to a prospective investment, the Venture League, Treasury League and Compliance League will all need to sign a multi-sig transaction and the given deployment will need to satisfy the permissions and restrictions of the issued mandates to each league.
 
-**DAO Specification**
+### DAO Specification
 
 The DAO consist of a series of League-DAOs using a specific hierarchy of permissions within the Aragon framework. These DAOs are organized through assigning roles and permissions in relation to one another. We categorize the whole system as a DAO, where the highest-level DAO is called the **Parent** and the rest are called **Leagues**, which are technically DAOs in their own right subject to nested permissions. In principle the parent DAO will push any and all activities during the mandates down to the league level. Each DAO will require its own design process and specification, but we offer a brief illustrative overview below.
 
-**Parent_DAO (_DAO)**
+### Parent_DAO
+
 Ultimately responsible for the funds of DAO members, and where all governing members vote on mandate selection. Voting is limited in the Parent_DAO to once per mandate (subject to the Benny Switch below); Day-to-day maintenance is delegated to the underlying League DAOs – Venture League, Treasury League, Compliance League, Dev League and so on, based on the permissions in their given mandates. This is similar to the way a board of directors have control over the leadership in a company, but the day-to-day operations are managed by functional departments. The Parent_DAO does not have direct access to spending its own funds rather that functionality is managed through the multi-sig between the Treasury League, Venture League and Compliance League.
 
-**Spend_Funds**
+### Spend_Funds
+
 A multi-sig that has the authority to execute Token transfers of the DAO tokens via inflation of the DAO token. The only members are the Treasury League, Venture League and the Compliance League. The Treasury League is allowed to make a vote to mint tokens and transfer them while the Compliance League is will simply ensure the values are correct, but has no ability to cast a vote. 3/3 of votes are required to transfer funds. Every payment should have a time delay before execution (example 14 days) to allow for an appeals process within the Venture League.
 
-**Treasury_League**
+### Treasury_League
+
 Responsible for managing the underlying capital of The DAO, specifically rebalancing the portfolio of underlying capital and executing inflation-based payments. This would be a bonded league (i.e. posts a collateralized position vs the current mandate’s capital) that would have specific permissions concerning the maintenance of portfolio balance, co-signing for capital deployments in deals proposed by the Venture League, and other management of liquid tokens such as 3rd party custody of certain assets. 
 
 ### Venture_League
+
 The Venture League would be the team that is responsible for sourcing deal flow and finding compelling investments. This League could be well suited for open community involvement in some way using appropriate social coordination tools. Obviously, with a proclivity for a structure that ensures confidentiality of certain deals (see Community below).
 
-**Compliance_League**
+### Compliance_League
+
 Responsible for ensuring Spend_Fund votes are accurate, the Venture League and Treasury_League are within their expected permissions and the capital deployment in question is in line with the principles of DAO. Compliance_League will also be responsible for white listing mandate proposals together with Aragon Court after the original mandate. This would be the third signature in the multi-sig to deploy capital during the mandate. 
 
 ***Note on Compliance***: Questions are naturally raised about the compliance of the DAO and potential classification of the token as a security by the SEC in the USA. We note that making a provision for a team to work with regulators towards agreeable solutions is a substantially more significant effort at compliance than what the industry has seen from DAOs before. Given that the DAO token is merely a basket of tokens that are already not considered securities, both the launch of the DAO network and token issuance are a) executed with sufficient level of decentralization as according to the [SEC](https://www.sec.gov/news/speech/speech-hinman-061418), b) not a common enterprise or expectation of profits from the work of others because the leagues don't yet exist nor are formed, c) the inflation mechanism amounts to a payment token under Swiss FINMA regulation. At the time of conceptualizing the DAO, most of the authors of this specification are optimistic that work can be done by a well-intentioned competent Compliance League to achieve reasonable compliance without sacrificing the principles above, namely that the DAO remains a 'clean capital' pool that participants can freely enter into and leave from reasonably without discrimination. 
 
 ### Dev_League
+
 This league would be responsible for due diligence of potential acquisitions, development of software for coordinating between the leagues and value-add services for portfolio projects in which the Dev_League would be naturally remunerated for.
 
-### Oracle_League 
+### Oracle_League
+
 Initially, an Oracle will be required by the DAO for relevant price feeds and striking NAV, especially considering future illiquid assets. This oracle would also be bonded and there is a range of decentralized oracle providers now available such as [Chainlink](https://chain.link) that could potentially provide this service today with minimal integration available to Aragon DAOs.
 
-**Original_Guild**
+### Original_Guild
+
 During the first mandate the Original_Guild (OG) operates like a proxy using Aragon Court. The OG has pseudo-privileges over other Leagues, meaning they should be able to freeze a DAO to prevent any rogue behaviour. These activities can be executed by the Aragon Court while ensuring appropriately decentralization in the launch and execution of the DAO. The Parent_DAO has similar privileges over the OG so that the Parent_DAO can freeze the OG_DAO in the case of rogue behaviour. After the original mandate, the OG will be dissolved and white listing future mandate proposals will be executed by Aragon Court in concert with the Compliance League.
 
 ## Mandates & Proposals
@@ -104,13 +113,13 @@ A mandate is;
 
 For example, a mandate could be to deploy 5% of DAO's capital (via inflation) over the course of 1 year and the Leagues will split a service payment of ~2% of total AUM plus 20% of the profit generated from the investments made during the given mandate, when they are harvested. So a $25 million capital pool would then generate fixed fees of 500k, which is enough to cover salaries for some teams operating leagues along with some financial incentives for community participants, with considerable potential upside if the given mandate produces compelling investments that results in outlier returns. Once a mandate is approved, the portion of capital allotted is added to the illiquid assets for the purposes of the liquidity provisions.
 
-**Proposals**
+### Proposals
 Proposals are an offer by one or more leagues to perform a mandate, with specific deliverables, permissions, timeline and outcome. Proposals can be made by any League or group of Leagues acting in concert. During the proposal era, anyone can make a Proposal for a mandate. However, only a whitelisted set of 4-5 potential mandates will actually be voted on by DAO members. 
 
-**Whitelisting Proposals**
+### Whitelisting Proposals
 Any group can conceivably self-organize into a league and make a proposal to the DAO to perform a mandate. A league or group of leagues that propose a mandate also must also be able to full the requirements to execute their proposal. For the first mandate decision, the Original Guild will be formed using Aragon Court to perform the white-listing of proposals shrinking down the number of proposals to a reasonable multiple-choice question.
 
-**Benny Switch**
+### Benny Switch
 A Benny Switch, named after [Benedict Arnold](https://en.wikipedia.org/wiki/Benedict_Arnold), is a way for DAO members to remove the permissions of a malicious league or group of leagues under emergency conditions or an attack. The Benny Switch engages if a minimum quorum of DAO members signal with their tokens that a Benny Switch vote is necessary. Then a subsequent vote occurs whereby a minimum quorum votes in favour of either removing a specific league's permissions or ending the entire mandate immediately. Given the issues with achieving minimum quorum in related crypto-networks with on-chain governance in the past, we would propose ~~dynamic quorum~~ adaptive quorum biasing whereby the minimum quorum necessary changes based on voter turnout.
 
 ## 3. Capital Formation - Bonding Curve
@@ -156,7 +165,7 @@ At the launch of the curve $a =$ $89.00, the Final Token Price.
 
 The onboarding-phase is a long enough period to allow for awareness to build widespread global participation, and short enough to add value to early participants.
 
-**Security**
+#### Security
 Due to the nature of mandate selection, if a single holder owns a majority of tokens, they can theoretically decide single-handedly the recipient of a mandate and act maliciously. Including a function whereby the cost of acquisition increases geometrically offers sufficient protection of attack from a well-capitalized malicious actor and thus the bonding curve is necessary to control both a run on the underlying capital in a market downturn as well as an attack from a well capitalized actor. If the community sells their tokens, this is a form of consent whereby the individual gives up their right to vote in mandate selection. It should just become gradually prohibitive to attack the DAO through DAO token minting.
 
 For a takeover attack through minting, because participation is not restrictive at the level of identity, it is not possible to outright prevent the case where an individual takes majority control of the token supply. However, capital is Sybil resistant if directed through a bonding curve.
