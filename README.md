@@ -1,13 +1,53 @@
+
 # The DAO
 ## A next-generation decentralized organization that coordinates the resources of a community (human and capital) to sustainably deliver value for members.
 
 **Authors**
 DAO Community & Friends
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
-[TOC]
 
----
+- [The DAO](#the-dao)
+  - [A next-generation decentralized organization that coordinates the resources of a community (human and capital) to sustainably deliver value for members.](#a-next-generation-decentralized-organization-that-coordinates-the-resources-of-a-community-human-and-capital-to-sustainably-deliver-value-for-members)
+  - [Abstract](#abstract)
+  - [Principles](#principles)
+    - [Clean distributed capital pool open to all](#clean-distributed-capital-pool-open-to-all)
+    - [One interaction with DAO token holders per Mandate](#one-interaction-with-dao-token-holders-per-mandate)
+    - [Value creation](#value-creation)
+    - [Ensuring security](#ensuring-security)
+  - [Current issues in capital deployment](#current-issues-in-capital-deployment)
+    - [Issues with legacy fund structures](#issues-with-legacy-fund-structures)
+    - [DAOs](#daos)
+  - [2. DAO Structure](#2-dao-structure)
+    - [DAO Specification](#dao-specification)
+    - [Parent_DAO](#parent_dao)
+    - [Spend_Funds](#spend_funds)
+    - [Treasury_League](#treasury_league)
+    - [Venture_League](#venture_league)
+    - [Compliance_League](#compliance_league)
+    - [Dev_League](#dev_league)
+    - [Oracle_League](#oracle_league)
+    - [Original_Guild](#original_guild)
+  - [Mandates & Proposals](#mandates--proposals)
+    - [Proposals](#proposals)
+    - [Whitelisting Proposals](#whitelisting-proposals)
+    - [Benny Switch](#benny-switch)
+  - [3. Capital Formation - Bonding Curve](#3-capital-formation---bonding-curve)
+    - [Phase 1 - Incentivise early on-boarding of capital](#phase-1---incentivise-early-on-boarding-of-capital)
+      - [Security](#security)
+  - [Off-Boarding](#off-boarding)
+    - [Last Man Standing](#last-man-standing)
+    - [Burning/Redeeming Tokens](#burningredeeming-tokens)
+      - [Example](#example)
+  - [Community](#community)
+  - [SourceCred - https://sourcecred.io/](#sourcecred---httpssourcecredio)
+  - [DAO Token](#dao-token)
+    - [Stabler Coin](#stabler-coin)
+  - [Conclusions](#conclusions)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Abstract
 
@@ -24,7 +64,7 @@ The DAO is clean capital pool. There have not been and will not be any discounts
 ### One interaction with DAO token holders per Mandate
 
 Participation in the DAO should not be overly complicated for a passive member (DAO token holders). Given the history of difficulty in educating and motivating crypto-asset holders to participate in decentralized decision making, members should only need to make one decision per Mandate (a Mandate may be one year duration to start) which should be a single multiple-choice question to approve a single Mandate among a small set of 4-5 Proposals. Proposals by Leagues are whitelisted by a Compliance League and/or using Aragon Court for coherence as protection against attack vectors. Decentralization of proposal whitelisting will be introduced appropriately.
-    
+
 ### Value creation
 
 All members, whether providing services via a League, allocating capital, whether vetted or open community members, are incentivized towards the pursuit of value accrual to the DAO portfolio. Using continuous payments to individuals who work full-time for Leagues, providing compelling bounties and rewards for community members that deliver value, the DAO’s bullet inflation mechanism will reward Leagues and members that deliver outlier value as investments and value-add activities are harvested by the DAO. The DAO's primary edge is its ability to scale the value-add contribution that a top-tier venture fund should deliver to its portfolio of projects. The DAO will be the highest value-add partner to its portfolio of projects because it will be able to deliver the true scarce resources of the crypto industry: developers, active, engaged community, beta testers, a privileged knowledgebase and global scale through its distributed network of members.
@@ -39,9 +79,9 @@ In delivering security to members, we note the need for resilience and certain s
 
 While many venture capital funds (VCs) are well-intentioned and do great work for their portfolio, there remain inherent structural limitations of the standard VC model:
 
-1. **Scaling value-add** Many investment funds start out being committed to "value-add", i.e., they deploy time and capital in assisting their portfolio projects alongside the initial capital invested in the project. Early-stage venture capital firms will help with recruiting, crypto-economic design, community management and other services. However, as a fund scales it is difficult to scale the value-add model along with AUM (assets under management) unless the fund commits to linearly scaling the team. 
+1. **Scaling value-add** Many investment funds start out being committed to "value-add", i.e., they deploy time and capital in assisting their portfolio projects alongside the initial capital invested in the project. Early-stage venture capital firms will help with recruiting, crypto-economic design, community management and other services. However, as a fund scales it is difficult to scale the value-add model along with AUM (assets under management) unless the fund commits to linearly scaling the team.
 
-2. **Fair compensation for value created** Start-up economics are especially skewed to favour the founder(s) who were present at inception, even though subsequent employees may generate substantial value. Actual value creation vs. value capture is frequently skewed in favour of early capital contributors and founders. Changing this dynamic to make an organization more attractive for top-tier talent to enter post-inception could create a vortex for high-value contributors who can be confident that they will share in the value they create accordingly and desire to be treated like an owner. 
+2. **Fair compensation for value created** Start-up economics are especially skewed to favour the founder(s) who were present at inception, even though subsequent employees may generate substantial value. Actual value creation vs. value capture is frequently skewed in favour of early capital contributors and founders. Changing this dynamic to make an organization more attractive for top-tier talent to enter post-inception could create a vortex for high-value contributors who can be confident that they will share in the value they create accordingly and desire to be treated like an owner.
 
 3. **Geographic reach** VCs, especially in crypto, often are regionally strong but don't have a global footprint. However, most of the major projects in Ethereum and generally across crypto have global ambitions. Thus crypto communities require an understanding of diverse, idiosyncratic markets. An investor-partner that has a truly global footprint and is able to help portfolio projects in a range of different geographies can create more value for companies and investors than traditional VCs.
 
@@ -61,7 +101,7 @@ The DAO is a decentralized software stack based on the [Aragon framework](https:
 
 Note: While trustless cross-chain value transfer has not yet matured, over time, members would expect that the DAO will also hold off-chain assets and crypto-assets that are not native to Ethereum, potentially via service from a bonded custody league.
 
-At the genesis of the DAO, capital can be onboarded during an initial funding period. After the close of initial funding, entry into and redemption from the DAO will occur against a bonding curve that regulates the pricing of the DAO token in units of the underlying capital. 
+At the genesis of the DAO, capital can be onboarded during an initial funding period. After the close of initial funding, entry into and redemption from the DAO will occur against a bonding curve that regulates the pricing of the DAO token in units of the underlying capital.
 
 The DAO will make capital deployments based on a set of permissions set in a multi-sig between the Venture League, Treasury League and Compliance League, subject to the permissions set forth in the respective mandates for each group. For capital to be sent by the DAO to a prospective investment, the Venture League, Treasury League and Compliance League will all need to sign a multi-sig transaction and the given deployment will need to satisfy the permissions and restrictions of the issued mandates to each league.
 
@@ -83,7 +123,7 @@ Responsible for managing the underlying capital of The DAO, specifically rebalan
 
 ### Venture_League
 
-The Venture League would be the team that is responsible for sourcing deal flow and finding compelling investments. This League could be well-suited for open community involvement using appropriate social coordination toolswhile ensuring confidentiality of certain deals (see Community, below).
+The Venture League would be the team that is responsible for sourcing deal flow and finding compelling investments. This League could be well-suited for open community involvement using appropriate social coordination tools while ensuring confidentiality of certain deals (see Community, below).
 
 ### Compliance_League
 
@@ -116,11 +156,11 @@ For example, a Mandate could be to deploy 5% of the DAO's capital (via inflation
 
 ### Proposals
 
-Proposals are an offer by one or more leagues to perform a mandate, with specific deliverables, permissions, timeline and outcome. Proposals can be made by any League or group of Leagues acting in concert. During the proposal era, anyone can make a Proposal for a mandate. However, only a whitelisted set of 4-5 potential Mandates will actually be voted on by DAO members. 
+Proposals are an offer by one or more leagues to perform a mandate, with specific deliverables, permissions, timeline and outcome. Proposals can be made by any League or group of Leagues acting in concert. During the proposal era, anyone can make a Proposal for a mandate. However, only a whitelisted set of 4-5 potential Mandates will actually be voted on by DAO members.
 
 ### Whitelisting Proposals
 
-Any group can conceivably self-organize into a League and make a proposal to the DAO to perform a Mandate. A League or group of Leagues that propose a Mandate also must also be able to fullfill the requirements to execute their proposal. For the first Mandate decision, the Original_Guild will be formed using Aragon Court to perform the whitelisting of proposals, reducing the number of proposals to a reasonable multiple-choice question.
+Any group can conceivably self-organize into a League and make a proposal to the DAO to perform a Mandate. A League or group of Leagues that propose a Mandate also must also be able to fulfill the requirements to execute their proposal. For the first Mandate decision, the Original_Guild will be formed using Aragon Court to perform the whitelisting of proposals, reducing the number of proposals to a reasonable multiple-choice question.
 
 ### Benny Switch
 A Benny Switch (named after [Benedict Arnold](https://en.wikipedia.org/wiki/Benedict_Arnold)) is a way for DAO members to remove the permissions of a malicious League or group of Leagues under emergency conditions or an attack. The Benny Switch engages if a minimum quorum of DAO members signal with their tokens that a Benny Switch vote is necessary. Then a subsequent vote occurs whereby a minimum quorum votes in favour of either removing a specific league's permissions or ending the entire Mandate immediately. Given the issues with achieving minimum quorum in related crypto-networks with on-chain governance in the past, we would propose adaptive quorum biasing whereby the minimum quorum necessary changes based on voter turnout.
@@ -144,12 +184,12 @@ A bonding curve controls the inflation of the token supply in a way that fulfill
 - $c\ = \phi^{\frac{1}{90}}$ = 1.0053611
 - $\phi =$ Golden Ratio = $\frac{1+\sqrt{5}}{2}$ or 1.6180339887
 - $\theta \ = (TokenSupply-StartingSupply)*TokenRatio$
-- $TokenRatio = \frac{90}{Starting Supply * 4}$ 
+- $TokenRatio = \frac{90}{Starting Supply * 4}$
     - Required tokens to rotate 90 Degrees on the Polar Graph
 
 ### Phase 1 - Incentivise early on-boarding of capital
 
-The initial funding period will allow for a bonus of DAO tokens to be minted in exchange for Underlying Capital (ETH, WBTC, etc.). This bonus period will decrease as a step function during an initial funding period of 3 months thereby incentivizing early deployment. 
+The initial funding period will allow for a bonus of DAO tokens to be minted in exchange for Underlying Capital (ETH, WBTC, etc.). This bonus period will decrease as a step function during an initial funding period of 3 months thereby incentivizing early deployment.
 
 The minting price of the token will increase at each interval after reaching a specified block height.
 
@@ -193,11 +233,11 @@ One can imagine a scenario where the treasury holds 100 Million and 10%, or 10 m
 If individuals continue to sell, liquid assets are exchanged to provide liquidity for redemptions. This, in turn, increases the Liquidity Discount as the inverse of the Liquidity Ratio.
 
 ![](https://i.imgur.com/fB74NMo.png)
- 
+
 ## Community
 Central to the value proposition of Venture League is leveraging the community for both sourcing deal flow and vetting potential deals. Leveraging novel social tools that allow teams to maintain a certain level of confidentiality when putting together a specific deal, but then also allow for community feedback and proposal of new opportunities.
 
-One solution could be a tiered structure where the ultimate investment ultimate responsibility for decision making is held by a small core team, but community members are rewarded for providing information, leads and work on behalf of all token holders. This reward can be for direct value-add to the portfolio companies or through vetting potential investments increasing the surface area of deal flow available to the core team, using SourceCred for reputation-weighted peer review.
+One solution could be a tiered structure where the ultimate investment responsibility for decision making is held by a small core team, but community members are rewarded for providing information, leads and work on behalf of all token holders. This reward can be for direct value-add to the portfolio companies or through vetting potential investments increasing the surface area of deal flow available to the core team, using SourceCred for reputation-weighted peer review.
 
 ![](https://i.imgur.com/y0qj4BA.png)
 
@@ -205,7 +245,7 @@ One solution could be a tiered structure where the ultimate investment ultimate 
 
 Past a group of 5-7 (known as a “two pizza” team) it can be difficult to coordinate and evaluate individual contributions, especially in teams that are distributed globally.[SourceCred](https://sourcecred.io) provides a toolbox to have reputation-weighted peer review of distributed teams and communities. SourceCred runs a modified version of PageRank on a contribution graph to produce a cred attribution. The weights within the system are highly configurable to match the needs of the community and one would expect that each League will organize its SourceCred algorithms accordingly depending on the parameters of that working group and the nature of their mandate.
 
-Through the use of SourceCred individual members of the community can earn reputation, as defined by the community and specifically community leaders, and be compensated for the value they bring into the system. Over time this lowers the barrier of entry into the community and encourages high quality work fulfilling the mission of the DAO. Most importantly, this fosters a culture whereby leagues and the individuals who comprise them have an understanding that if they deliver great value, they will be adequately compensated for their contributions. 
+Through the use of SourceCred individual members of the community can earn reputation, as defined by the community and specifically community leaders, and be compensated for the value they bring into the system. Over time this lowers the barrier of entry into the community and encourages high quality work fulfilling the mission of the DAO. Most importantly, this fosters a culture whereby leagues and the individuals who comprise them have an understanding that if they deliver great value, they will be adequately compensated for their contributions.
 
 ## DAO Token
 DAO tokens will be issued to leagues for services, projects as medium of investment and members in exchange for Underlying Capital. They confer governance rights to decide mandates and ultimately guide the direction of DAO and can be used for staking in the Aragon Court assembly of the Original Guild as well as staking for conflict resolution. The DAO token is issued when a deployment is confirmed by the multi-sig between Venture League, Treasury League and Compliance League and the DAO token is considered a basket of the underlying assets of the capital pool via bullet inflation. That is that the Treasury_DAO can inflate DAO tokens subject to the permissions of the given mandate and thusly balance the portfolio.
