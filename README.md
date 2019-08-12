@@ -120,7 +120,7 @@ Proposals are an offer by one or more leagues to perform a mandate, with specifi
 
 ### Whitelisting Proposals
 
-Any group can conceivably self-organize into a League and make a proposal to the DAO to perform a Mandate. A League or group of Leagues that propose a Mandate also must also be able to fullfill the requirements to execute their proposal. For the first Mandate decision, the Original_Guild will be formed using Aragon Court to perform the whitelisting of proposals, reducing the number of proposals to a reasonable multiple-choice question.
+Any group can conceivably self-organize into a League and make a proposal to the DAO to perform a Mandate. A League or group of Leagues that propose a Mandate also must also be able to fulfill the requirements to execute their proposal. For the first Mandate decision, the Original_Guild will be formed using Aragon Court to perform the whitelisting of proposals, reducing the number of proposals to a reasonable multiple-choice question.
 
 ### Benny Switch
 A Benny Switch (named after [Benedict Arnold](https://en.wikipedia.org/wiki/Benedict_Arnold)) is a way for DAO members to remove the permissions of a malicious League or group of Leagues under emergency conditions or an attack. The Benny Switch engages if a minimum quorum of DAO members signal with their tokens that a Benny Switch vote is necessary. Then a subsequent vote occurs whereby a minimum quorum votes in favour of either removing a specific league's permissions or ending the entire Mandate immediately. Given the issues with achieving minimum quorum in related crypto-networks with on-chain governance in the past, we would propose adaptive quorum biasing whereby the minimum quorum necessary changes based on voter turnout.
@@ -197,7 +197,7 @@ If individuals continue to sell, liquid assets are exchanged to provide liquidit
 ## Community
 Central to the value proposition of Venture League is leveraging the community for both sourcing deal flow and vetting potential deals. Leveraging novel social tools that allow teams to maintain a certain level of confidentiality when putting together a specific deal, but then also allow for community feedback and proposal of new opportunities.
 
-One solution could be a tiered structure where the ultimate investment ultimate responsibility for decision making is held by a small core team, but community members are rewarded for providing information, leads and work on behalf of all token holders. This reward can be for direct value-add to the portfolio companies or through vetting potential investments increasing the surface area of deal flow available to the core team, using SourceCred for reputation-weighted peer review.
+One solution could be a tiered structure where the ultimate investment responsibility for decision making is held by a small core team, but community members are rewarded for providing information, leads and work on behalf of all token holders. This reward can be for direct value-add to the portfolio companies or through vetting potential investments increasing the surface area of deal flow available to the core team, using SourceCred for reputation-weighted peer review.
 
 ![](https://i.imgur.com/y0qj4BA.png)
 
