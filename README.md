@@ -1,3 +1,47 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [The DAO](#the-dao)
+  - [A next-generation decentralized organization that coordinates the resources of a community (human and capital) to sustainably deliver value for members.](#a-next-generation-decentralized-organization-that-coordinates-the-resources-of-a-community-human-and-capital-to-sustainably-deliver-value-for-members)
+  - [Abstract](#abstract)
+  - [Principles](#principles)
+    - [Clean distributed capital pool open to all](#clean-distributed-capital-pool-open-to-all)
+    - [One interaction with DAO token holders per Mandate](#one-interaction-with-dao-token-holders-per-mandate)
+    - [Value creation](#value-creation)
+    - [Ensuring security](#ensuring-security)
+  - [Current issues in capital deployment](#current-issues-in-capital-deployment)
+    - [Issues with legacy fund structures](#issues-with-legacy-fund-structures)
+    - [DAOs](#daos)
+  - [2. DAO Structure](#2-dao-structure)
+    - [DAO Specification](#dao-specification)
+    - [Parent_DAO](#parent_dao)
+    - [Spend_Funds](#spend_funds)
+    - [Treasury_League](#treasury_league)
+    - [Venture_League](#venture_league)
+    - [Compliance_League](#compliance_league)
+    - [Dev_League](#dev_league)
+    - [Oracle_League](#oracle_league)
+    - [Original_Guild](#original_guild)
+  - [Mandates & Proposals](#mandates--proposals)
+    - [Proposals](#proposals)
+    - [Whitelisting Proposals](#whitelisting-proposals)
+    - [Benny Switch](#benny-switch)
+  - [3. Capital Formation - Bonding Curve](#3-capital-formation---bonding-curve)
+    - [Phase 1 - Incentivise early on-boarding of capital](#phase-1---incentivise-early-on-boarding-of-capital)
+      - [Security](#security)
+  - [Off-Boarding](#off-boarding)
+    - [Last Man Standing](#last-man-standing)
+    - [Burning/Redeeming Tokens](#burningredeeming-tokens)
+      - [Example](#example)
+  - [Community](#community)
+  - [SourceCred - https://sourcecred.io/](#sourcecred---httpssourcecredio)
+  - [DAO Token](#dao-token)
+    - [Stabler Coin](#stabler-coin)
+  - [Conclusions](#conclusions)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # The DAO
 ## A next-generation decentralized organization that coordinates the resources of a community (human and capital) to sustainably deliver value for members.
 
