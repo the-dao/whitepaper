@@ -1,6 +1,13 @@
+
+# The DAO
+## A next-generation decentralized organization that coordinates the resources of a community (human and capital) to sustainably deliver value for members.
+
+**Authors**
+DAO Community & Friends
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [The DAO](#the-dao)
   - [A next-generation decentralized organization that coordinates the resources of a community (human and capital) to sustainably deliver value for members.](#a-next-generation-decentralized-organization-that-coordinates-the-resources-of-a-community-human-and-capital-to-sustainably-deliver-value-for-members)
@@ -41,17 +48,6 @@
   - [Conclusions](#conclusions)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# The DAO
-## A next-generation decentralized organization that coordinates the resources of a community (human and capital) to sustainably deliver value for members.
-
-**Authors**
-DAO Community & Friends
-
-**Table of Contents**
-[TOC]
-
----
 
 ## Abstract
 
