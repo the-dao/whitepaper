@@ -139,13 +139,12 @@ A bonding curve controls the inflation of the token supply in a way that fulfill
 ![](https://i.imgur.com/22oRU0f.png=250x) [Note: Float left to the Equations ]
 *Graph plotted on the proper Polar Coordinates*
 
-- $r\ = ac^{\theta}$
+- $r\ = ac^{(TotalSupply - StartSupply)*TokenRatio}$
 - $a\ =$ Bonding Curve Starting Price
-- $c\ = \phi^{\frac{1}{90}}$ = 1.0053611
+- $c\ = \phi^{\frac{1}{90}}$ = 1.0053611  (Growth Factor)
 - $\phi =$ Golden Ratio = $\frac{1+\sqrt{5}}{2}$ or 1.6180339887
-- $\theta \ = (TokenSupply-StartingSupply)*TokenRatio$
 - $TokenRatio = \frac{90}{Starting Supply * 4}$ 
-    - Required tokens to rotate 90 Degrees on the Polar Graph
+    - Converts Tokens into degrees
 
 ### Phase 1 - Incentivise early on-boarding of capital
 
@@ -193,6 +192,12 @@ One can imagine a scenario where the treasury holds 100 Million and 10%, or 10 m
 If individuals continue to sell, liquid assets are exchanged to provide liquidity for redemptions. This, in turn, increases the Liquidity Discount as the inverse of the Liquidity Ratio.
 
 ![](https://i.imgur.com/fB74NMo.png)
+
+### Adjusting the slope of onboarding through the Token Ratio
+
+The goal is smooth slow growth of the underlying capital relative to the growth of the illiquid assets. There can be the case where the influx of capital is too quick relative to the illiquid assets under management. Conversely, it can also be the case that capital is not coming in due to a gap in the minting price and fluctuations in the value of underlying capital. In either case, it is crucial the DAO has a mechanism to adapt to changes in the outside world by incentivizing or de-incentivizing depositing capital into the system. 
+
+We have designed the equation of the bonding curve to be as such that the lever for either of these cases is the single varible labeled `Tokenratio`. By increasing or decreasing this value, the leagues are able to incentives or disincentivize the onboarding of capital. This while maintaining the overall shape of the curve. With an increase in `TokenRatio,` the cost of acquiring DAO tokens goes up. With the decrease of this value, the cost of buying DAO tokens goes down.
  
 ## Community
 Central to the value proposition of Venture League is leveraging the community for both sourcing deal flow and vetting potential deals. Leveraging novel social tools that allow teams to maintain a certain level of confidentiality when putting together a specific deal, but then also allow for community feedback and proposal of new opportunities.
