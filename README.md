@@ -136,7 +136,7 @@ DAO requires a mechanism that allows for DAO members to off-board reasonably if 
 
 A bonding curve controls the inflation of the token supply in a way that fulfills both of these requirements.
 
-![](https://i.imgur.com/22oRU0f.png =250x) [Note: Float left to the Equations ]
+![](https://i.imgur.com/22oRU0f.png=250x) [Note: Float left to the Equations ]
 *Graph plotted on the proper Polar Coordinates*
 
 - $r\ = ac^{\theta}$
