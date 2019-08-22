@@ -139,13 +139,12 @@ A bonding curve controls the inflation of the token supply in a way that fulfill
 ![](https://i.imgur.com/22oRU0f.png=250x) [Note: Float left to the Equations ]
 *Graph plotted on the proper Polar Coordinates*
 
-- $r\ = ac^{\theta}$
-- $a\ =$ Bonding Curve Starting Price
-- $c\ = \phi^{\frac{1}{90}}$ = 1.0053611
-- $\phi =$ Golden Ratio = $\frac{1+\sqrt{5}}{2}$ or 1.6180339887
-- $\theta \ = (TokenSupply-StartingSupply)*TokenRatio$
-- $TokenRatio = \frac{90}{Starting Supply * 4}$ 
-    - Required tokens to rotate 90 Degrees on the Polar Graph
+- ![r](https://user-images.githubusercontent.com/49164280/63477963-8d58ce00-c43c-11e9-9bfe-db43a0308659.png)
+- ![a](https://user-images.githubusercontent.com/49164280/63477966-9184eb80-c43c-11e9-8951-b141642e96b3.png) Bonding Curve Starting Price
+- ![c](https://user-images.githubusercontent.com/49164280/63477969-93e74580-c43c-11e9-9355-d4844dba0fe3.png)  = 1.0053611  (Growth Factor)
+- ![phi](https://user-images.githubusercontent.com/49164280/63477971-96e23600-c43c-11e9-8d74-6ed5557d771d.png)
+- ![tokenRatio](https://user-images.githubusercontent.com/49164280/63477974-98abf980-c43c-11e9-97e1-2826469ea288.png) or 1.6180339887
+ - Converts Tokens into degrees
 
 ### Phase 1 - Incentivise early on-boarding of capital
 
@@ -156,6 +155,7 @@ The minting price of the token will increase at each interval after reaching a s
 ![](https://i.imgur.com/eM29r2q.png)
 
 Initial Step Prices
+
 | Time ≈  | Block Height | Token Price |
 |---------|--------------| ------ |
 | 0 Weeks | 0      | $50 |
@@ -164,7 +164,7 @@ Initial Step Prices
 | 6 Weeks | 267000 | $85 |
 | 3 Months| 534000 | $89 |
 
-At the launch of the curve $a =$ $89.00, the Final Token Price.
+At the launch of the curve `a =` $89.00, the Final Token Price.
 
 The onboarding-phase is a long enough period to allow for awareness to build widespread global participation, and short enough to add value to early participants.
 
@@ -181,9 +181,11 @@ After the initial funding period, DAO members can off-board via the bonding curv
 Inherent to the design of DAO is a principle of favouring the Last Man Standing. Redeeming parties effectively leave their private allocation plus the current mandate as a penalty, thereby leaving the remaining DAO members with an accreditive position containing a larger share of the private assets. If the Venture League does its job correctly over time, those assets should be the most profitable assets over the long run. Thusly the on-boarding and off-boarding structure favours first-in-last-out DAO members. If a member maintains their position through all the ups and downs and liquidity crunches in crypto, that member should stand to be rewarded by the best-performing position.
 
 ### Burning/Redeeming Tokens
-$BurnPrice = CurrentMintingPrice * LiquidityRatio$
+<!--$BurnPrice = CurrentMintingPrice * LiquidityRatio$-->
+![burn-price](https://user-images.githubusercontent.com/49164280/63478191-aca42b00-c43d-11e9-8f5f-d7928b8d4b73.png)
 
-$LiquidityRatio = \frac{LiquidAssets}{Liquid + Illiquid}$
+<!-- $LiquidityRatio = \frac{LiquidAssets}{Liquid + Illiquid}$ -->
+![Liquidity](https://user-images.githubusercontent.com/49164280/63478193-ad3cc180-c43d-11e9-883a-401fdc5bc798.png)
 
 The treasury provides the liquidity ratio through an oracle. Thusly, the burn function is not activated until a mandate has been selected, and there exists an entity to fulfill this role.
 
