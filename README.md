@@ -4,9 +4,6 @@
 **Authors**
 DAO Community & Friends
 
-**Table of Contents**
-[TOC]
-
 ---
 
 ## Abstract
@@ -101,7 +98,7 @@ Initially, an Oracle will be required by the DAO for relevant price feeds and st
 
 ### Original_Guild
 
-During the first mandate the Original_Guild (OG) operates like a proxy using Aragon Court. The OG has pseudo-privileges over other Leagues, meaning they should be able to freeze a DAO to prevent any rogue behaviour. These activities can be executed by the Aragon Court while ensuring appropriate decentralization in the launch and execution of the DAO. The Parent_DAO has similar privileges over the OG so that the Parent_DAO can freeze the OG_DAO in the case of rogue behaviour. After the original mandate, the OG will be dissolved and whitelisting future mandate proposals will be executed by Aragon Court in concert with the Compliance League.
+During the first mandate the Original_Guild (OG) operates like a proxy using Aragon Court for whitelisting the original proposals. The OG has pseudo-privileges over other Leagues, meaning they should be able to freeze a DAO to prevent any rogue behaviour. These activities can be executed by the Aragon Court while ensuring appropriate decentralization in the launch and execution of the DAO. The Parent_DAO has similar privileges over the OG so that the Parent_DAO can freeze the OG_DAO in the case of rogue behaviour. After the original mandate, the OG will be dissolved and whitelisting future mandate proposals will be executed by Aragon Court in concert with the Compliance League.
 
 ## Mandates & Proposals
 
