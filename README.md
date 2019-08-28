@@ -4,6 +4,8 @@
 **Authors**
 DAO Community & Friends
 
+Join the discussion on Discord: https://discord.gg/NChJK5N
+
 ---
 
 ## Abstract
