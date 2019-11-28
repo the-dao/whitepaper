@@ -198,7 +198,7 @@ If individuals continue to sell, liquid assets are exchanged to provide liquidit
 ## Community
 Central to the value proposition of Venture League is leveraging the community for both sourcing deal flow and vetting potential deals. Leveraging novel social tools that allow teams to maintain a certain level of confidentiality when putting together a specific deal, but then also allow for community feedback and proposal of new opportunities.
 
-One solution could be a tiered structure where the ultimate investment ultimate responsibility for decision making is held by a small core team, but community members are rewarded for providing information, leads and work on behalf of all token holders. This reward can be for direct value-add to the portfolio companies or through vetting potential investments increasing the surface area of deal flow available to the core team, using SourceCred for reputation-weighted peer review.
+One solution could be a tiered structure where the ultimate responsibility for decision making is held by a small core team, but community members are rewarded for providing information, leads and work on behalf of all token holders. This reward can be for direct value-add to the portfolio companies or through vetting potential investments increasing the surface area of deal flow available to the core team, using SourceCred for reputation-weighted peer review.
 
 ![](https://i.imgur.com/y0qj4BA.png)
 
